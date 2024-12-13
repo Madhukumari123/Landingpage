@@ -1,0 +1,470 @@
+*{
+    margin:  0%;
+    padding:  0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+   background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2 )),url(images/eiffel.jpg);
+    background-position: bottom;
+    background-size: cover;
+   
+    
+}
+.text {
+   height: 13%;
+   width: 100%;
+   background-color:#00000052;
+   color: #fff;
+   text-transform: uppercase;
+   display: flex;
+  
+
+
+}
+.text h1{
+    margin-top: 2%;
+    margin-left: 5%;
+    color: #fff;
+    animation: colorAnimate 2s ease-in 0s infinite normal;
+ 
+
+}
+@keyframes colorAnimate{
+  0%{
+      color: rgb(8, 238, 250);
+  }
+  50%{
+      color: rgb(255, 0, 0);
+  }
+  100%{
+      color: rgb(5, 255, 43);
+  }
+}
+.text a{
+   
+    
+    text-align: center;
+   
+    margin: 13px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+   left: 32%;
+   top: 27%;
+   
+}
+
+.text a:hover{
+    color: greenyellow;
+}
+
+section h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 28%;
+    margin-top: 10%;
+    font-size: 35px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+section h1{
+    
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 22%;
+    margin-top:3% ;
+    font-size: 35px;
+    letter-spacing: 3px;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section p{
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-left: 30%;
+    margin-top:2% ;
+    font-size: 18px;
+    /* letter-spacing: 3px; */
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+section button{
+    text-transform: uppercase;
+    margin: 1% ;
+    margin-top: 3%;
+    position: relative;
+    top: 40%;
+    left: 30%;
+    
+    box-shadow: black;
+     padding: 5px 12px 5px 12px;
+    color: black;
+    animation: changename 7s infinite linear;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+   
+
+}
+section button:hover{
+    background-color: #00fc13;
+}
+
+
+
+.nameslideshow:after {
+    color: #00fc13;
+    animation: changename 7s infinite linear;
+    content: '';
+  }
+  
+  @keyframes changename{
+    0% { content: "Portrait"}
+    25% { content: "Landscape"}
+    50% { content: "Editorial"}
+    75% { content: "Event"}
+    100% { content: "Nature"}
+  }
+
+  /* 2nd page.............. */
+
+  .main2{
+    height: 100%;
+    width: 100%;
+     margin: 10px;
+  }
+  .main2 h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: solid;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+  }
+  .top{
+     height: 80%;
+     width: 100%;
+     display: flex;
+    margin-top: 15px;
+    justify-content: space-evenly;
+  }
+  .top-img1{
+    background-image: url(images/tajmahal.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: black;
+    height: 100%;
+    width: 30%;
+    background-color: red;
+  }
+  .top-img1 i{
+   
+    position: relative;
+    top: 100%;
+    font-size: 35px;
+    font-weight: 600;
+    color:  rgb(253, 253, 63);
+   }
+   .top-img1 h3{
+    font-weight: 800;
+   position: relative;
+   top: 91%;
+   left: 15%;
+   font-size: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+  }
+
+  
+  .top-img2{
+    background-image:url(images/lalkila.jpg) ;
+    background-position: bottom;
+    background-size: cover;
+    box-shadow: black;
+    height: 100%;
+    width: 30%;
+    background-color: rgb(11, 230, 80);
+  }
+  .top-img2 i{
+   
+    position: relative;
+    top: 100%;
+    font-size: 35px;
+    font-weight: 600;
+    color:  rgb(253, 253, 63);
+  }
+  .top-img2 h3{
+    font-weight: 800;
+   position: relative;
+   top: 91%;
+   left: 15%;
+   font-size: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .top-img3{
+    background-image: url(images/indiagate.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 30%;
+    background-color: red;
+  }
+  .top-img3 i{
+   
+    position: relative;
+    top: 100%;
+    font-size: 35px;
+    font-weight: 600;
+    color:  rgb(253, 253, 63);
+   
+  
+   }
+   .top-img3 h3{
+     font-weight: 800;
+    position: relative;
+    top: 91%;
+    left: 15%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   .main3{
+    height: 100%;
+    width: 100%;
+   
+    margin: 10px;
+  }
+  .main3 h2{
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: solid;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+  }
+
+ .bottom{
+   
+    height: 80%;
+    width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 15px;
+ }
+ .bottom-img1{
+    background-image:url(images/Thailand.jpg) ;
+    background-position: left;
+    background-size: cover;
+    height: 100%;
+    width: 30%;
+    background-color: rgb(62, 23, 23);
+  }
+ .bottom-img1 i{
+  
+  position: relative;
+  top: 100%;
+  font-size: 35px;
+  font-weight: 600;
+  color:  rgb(253, 253, 63);
+ 
+
+ }
+ .bottom-img1 h3{
+  font-weight: 800;
+  position: relative;
+  top: 91%;
+  left: 15%;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+  .bottom-img2{
+    background-image:url(images/eiffel.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 30%;
+    background-color: rgb(220, 254, 231);
+  }
+  .bottom-img2 i{
+    
+    position: relative;
+    top: 100%;
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(253, 253, 63);
+   }
+   .bottom-img2 h3{
+    font-weight: 800;
+    position: relative;
+    top: 91%;
+    left: 15%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+  .bottom-img3{
+    background-image:url(images/goabeach.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 30%;
+    background-color: rgb(249, 10, 245);
+  }
+  .bottom-img3 i{
+    
+    position: relative;
+    top: 100%;
+    font-size: 35px;
+    font-weight: 600;
+    color:  rgb(253, 253, 63);
+  }
+  .bottom-img3 h3{
+    font-weight: 800;
+    position: relative;
+    top: 91%;
+    left: 15%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+ /* ..........  page4 ......... */
+  .main4{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .main4-text1{
+    height: 60%;
+    width: 35%;
+    margin-top: 25px;
+  }
+  .main4-text2{
+    height: 60%;
+    width: 30%;
+    margin-top: 25px;
+  }
+  .main4-text3{
+    height: 60%;
+    width: 30%;
+   
+  }
+  .main4-text1 h1{
+    color:black;
+    font-weight: 900;
+    position: relative;
+    left: 50px;
+    top: 60px;
+  }
+ .main4-text1 p{
+  color: black;
+  opacity: 0.5;
+  font-weight: 900;
+  position: relative;
+  left: 50px;
+  top: 65px;
+  line-height: 20px;
+ }
+ .main4-text1 a{
+  color: black;
+  height: 20px;
+  width: 20px;
+  background-color:yellowgreen;
+ border-radius: 50%;
+ font-size: 35px;
+ font-weight: 900;
+ margin: 10px;
+ position: relative;
+ left: 40px;
+ top: 100px;
+ box-shadow: 8px 16px 32px black;
+ }
+ .main4-text2 h1{
+  font-size: 35px;
+  color: black;
+  font-weight: 900;
+  position: relative;
+  left: 40px;
+  top: 60px;
+ }
+ .main4-text2 p{
+  color: black;
+  opacity: 0.5;
+  font-size: 20px;
+  margin-top: 15px;
+  position: relative;
+  left: 40px;
+  top: 45px;
+ }
+  .main4-text3 h1{
+    font-size: 35px;
+    font-weight: 900;
+    font-weight: 900;
+    color: black;
+    position: relative;
+    left: 10px;
+    top: 80px;
+  }
+  .main4-text3 a{
+    font-size: 30px;
+    font-weight: 900;
+    color: yellow;
+    position: relative;
+    top: 85px;
+  }
+  .main4-text3 p{
+    color:black;
+    font-size: 20px;
+    font-weight: 900;
+    position: relative;
+    left: 50px;
+    top: 55px;
+  }
+  .main4-text3 h3{
+    color: black;
+    opacity: 0.5;
+    position: relative;
+    left: 50px;
+    top: 55px
+  }
+  /* .................page5........................ */
+  .main5{
+    height: 100%;
+    width: 100%;
+    background-color: #00fc13;
+  }
+  .img{
+    height: 100%;
+    width: 100%;
+    background-color: brown;
+    background-image:url(images/Nature2.jpg) ;
+    background-position: center;
+    background-size: cover;
+  }
+  .img h1{
+    color: white;
+    font-size: 45px;
+    font-weight: 900;
+    position: relative;
+    top: 50%;
+    left: 20%;
+    text-shadow:10px 10px 10px black;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
